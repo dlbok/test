@@ -55,3 +55,7 @@ t%:
 		echo "merge: \033[0;31m$$branch\033[0m" && \
 		git push && \
 		git checkout $$branch;
+
+
+
+
