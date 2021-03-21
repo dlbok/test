@@ -41,7 +41,7 @@ rebase:
 		git rebase master;
 
 # 多环境支持，合并开发分支代码到t[1,2,3,4,5,6,7,10]，遇到冲突请手动解决冲突 t1环境，不在docker环境内
-dev%:
+t%:
 	@echo "当前对应环境名称: env0$* 分支：t$*";
 	- git branch -D t$*;
 	git fetch;
